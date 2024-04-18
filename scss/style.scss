@@ -1,0 +1,594 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Exo2;
+  src: url(/fonts/Exo_2/Exo2-Regular.ttf);
+}
+
+@font-face {
+  font-family: PTsans;
+  src: url(/fonts/PT_sans/PTSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: Familjen;
+  src: url(/fonts/Familjen/FamiljenGrotesk-Regular.ttf);
+}
+
+@font-face {
+  font-family: opensans;
+  src: url(/fonts/opensans/OpenSans-Regular.ttf);
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero {
+  padding: 109px 0;
+  .ebony {
+    display: flex;
+    justify-content: space-between;
+    .ebony-text p:nth-child(1) {
+      color: #363738;
+      font-family: Exo2;
+      font-weight: 600;
+      font-size: 52px;
+      line-height: 65px;
+      padding: 81px 0px 40px 0px;
+    }
+    .ebony-text p:nth-child(2) {
+      color: #6b6b6c;
+      font-family: PTSans;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      padding: 0px 0px 40px 0;
+    }
+    .ebony-text a {
+      color: #363738;
+      font-family: PTsans;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      border-bottom: 3px solid #ffce50;
+    }
+  }
+}
+
+.trio {
+  padding: 67px 0;
+  .under {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px 0px #00000026;
+    .card {
+      padding: 40px 80px;
+      .card-icon {
+        padding: 0px 0px 24px 0px;
+      }
+      .card-text-1 {
+        color: #363738;
+        font-family: Exo2;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        padding: 0px 0px 16px 0;
+      }
+      .card-text-2 {
+        color: #6b6b6c;
+        font-family: PTsans;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+    .ikki {
+      border-left: 1px solid #d7d7dd;
+    }
+  }
+}
+
+.overfow {
+  padding: 67px 0px;
+  .twor {
+    background: url(/img/section-3/car.png);
+    background-repeat: no-repeat;
+    width: 1205px;
+    background-position-x: 160px;
+    position: relative;
+    p {
+      font-family: Exo2;
+      font-size: 48px;
+      position: absolute;
+      margin-top: -280px;
+      margin-left: 100px;
+      width: 362px;
+      font-weight: 600;
+      color: #ffffff;
+    }
+  }
+  .fourth {
+    display: flex;
+    padding: 72px 0px 0px 0px;
+    margin-left: 66px;
+    .dol {
+      .dark {
+        display: flex;
+        gap: 40px;
+        padding: 62px 0;
+        .dark-text p:nth-child(1) {
+          color: #363738;
+          font-family: Exo2;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 27px;
+        }
+        .dark-text p:nth-child(2) {
+          color: #6b6b6c;
+          font-family: PTsans;
+          font-weight: 400;
+          font-size: 16px;
+          width: 291px;
+          line-height: 24px;
+        }
+      }
+    }
+
+    .cull {
+      .kard {
+        display: flex;
+        gap: 40px;
+        margin-left: 140px;
+        padding: 62px 0px;
+        .kard-text p:nth-child(1) {
+          color: #363738;
+          font-family: Exo2;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 27px;
+        }
+        .kard-text p:nth-child(2) {
+          color: #6b6b6c;
+          font-family: PTsans;
+          font-weight: 400;
+          font-size: 16px;
+          width: 291px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}
+
+.plan {
+  padding: 0px 0px 212px 0px;
+  .plan-first-p {
+    color: #363738;
+    font-family: Exo2;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .plan-second-p {
+    color: #6b6b6c;
+    font-family: PTsans;
+    padding: 32px 0px 56px 0px;
+    font-weight: 400;
+    width: 637px;
+    height: 41px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 50px 0px;
+    .card {
+      border-radius: 10px;
+      transition: 0.5s;
+      &:hover {
+        box-shadow: 0px 4px 20px 0px #0000001f;
+      }
+      .texts {
+        padding: 24px 0px 0px 32px;
+        .erro {
+          color: #363738;
+          font-family: Exo2;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 27px;
+        }
+        .lorim {
+          color: #6b6b6c;
+          padding: 16px 0px 32px 0px;
+          width: 291px;
+          font-family: PTsans;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+        }
+        .summa {
+          color: #363738;
+          font-family: Exo2;
+          font-weight: 600;
+          font-size: 16px;
+          width: 90px;
+          padding: 0px 0px 42px 0px;
+        }
+      }
+    }
+  }
+}
+
+.postavki {
+  .Etapi {
+    color: #363738;
+    font-family: Exo2;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 0px 0px 0px;
+    gap: 24px;
+    .card {
+      box-shadow: 0px 4px 15px 0px #0000001f;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 56px;
+      padding: 32px 0px 32px 96px;
+      .card-text {
+        padding: 0px 132px 0px 0px;
+        .p1 {
+          color: #363738;
+          font-family: Exo2;
+          font-weight: 600;
+          font-size: 20px;
+        }
+        .p2 {
+          color: #6b6b6c;
+          font-family: PTsans;
+          font-weight: 400;
+          font-size: 16px;
+          padding: 13px 0px 0px 0px;
+        }
+      }
+    }
+  }
+}
+
+.doveryat {
+  padding: 120px 0px 130px 0px;
+  .nam {
+    color: #363738;
+    font-family: Exo2;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 90px;
+    .setup {
+      display: flex;
+      gap: 133px;
+      .card {
+        justify-content: space-between;
+        display: flex;
+        border-radius: 7px;
+        padding: 20px 15px 20px 15px;
+        flex-direction: column;
+        box-shadow: 0px 4px 15px 0px #0000001f;
+        .settings {
+          text-align: center;
+        }
+        .p1 {
+          color: #363738;
+          font-family: Exo2;
+          font-weight: 600;
+          font-size: 20px;
+          text-align: center;
+          padding: 28px 0px 15px 0px;
+        }
+        .p2 {
+          color: #6b6b6c;
+          font-family: PTsans;
+          font-weight: 400;
+          font-size: 14px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+.company {
+  padding: 130px 0px 130px 0px;
+  .sotrudniki {
+    color: #363738;
+    font-family: Exo2;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .cards {
+    padding: 72px 0px 0px 0px;
+    display: flex;
+    gap: 30px;
+    .grenly {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      .card {
+        box-shadow: 0px 4px 15px 0px #00000026;
+        display: flex;
+        background-image: url(/img/section-8/green.png);
+        background-position: left;
+        background-repeat: no-repeat;
+        padding: 34px 170px 0px 0px;
+        border-radius: 10px;
+        gap: 40px;
+        .card-img {
+          padding: 0px 0px 25px 80px;
+        }
+        .card-text {
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          // padding: 15px 179px 15px 0px;
+          .p1 {
+            color: #363738;
+            font-family: Exo2;
+            font-size: 20px;
+          }
+          .p2 {
+            color: #6b6b6c;
+            font-family: PTsans;
+          }
+          .rasm {
+            display: flex;
+            gap: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.contact {
+  padding: 0px 0px 103px 0px;
+  .conc {
+    color: #363738;
+    font-family: Exo2;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .all-contacts {
+    padding: 94px 0px 103px 0px;
+    display: flex;
+    gap: 198px;
+    .left-contacts {
+      display: flex;
+      flex-direction: column;
+      gap: 44px;
+      .wibers {
+        display: flex;
+        gap: 37px;
+        .wiber-text p:nth-child(1) {
+          color: #6b6b6c;
+          font-family: PTsans;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+        }
+        .wiber-text p:nth-child(2) {
+          color: #363738;
+          font-family: Exo2;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 24px;
+        }
+      }
+    }
+
+    .right-contacts {
+      padding: 0px 72px 0px 48px;
+      background-color: #f9f9fb;
+      .data {
+        display: flex;
+        gap: 56px;
+        padding: 32px 0px;
+        border-bottom: 1px solid #e9eaf2;
+        width: 674px;
+        .data-text-1 {
+          color: #6b6b6c;
+          font-family: PTsans;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+          width: 200px;
+        }
+
+        .data-text-2 {
+          color: #363738;
+          font-family: Exo2;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 20px;
+          width: 443px;
+        }
+        .data-text1 {
+          width: 175px;
+        }
+      }
+    }
+  }
+}
+
+.man {
+  padding: 46px 0px 166px 0px;
+  img {
+    width: 1210px;
+    height: 667px;
+  }
+}
+
+footer {
+  .about {
+    color: #ffffff;
+    font-family: Exo2;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    padding: 80px 0px 0px 0px;
+  }
+  background-color: #0b7572;
+  padding: 80px 0px 90px 0px;
+  .bluesky {
+    .logo {
+      font-weight: 500;
+      font-family: Familjen;
+      font-size: 60px;
+      color: #ffffff;
+    }
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    padding: 0px 0px 0px 95px;
+    .footer-text {
+      display: flex;
+      flex-direction: row;
+      gap: 97px;
+      .all-texts {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+      .all-site {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .all-texts p {
+        font-family: Exo2;
+        font-weight: 500;
+        font-size: 13px;
+        color: #ffffff;
+        letter-spacing: 16%;
+      }
+      .all-site p {
+        font-family: Exo2;
+        font-weight: 500;
+        font-size: 13px;
+        color: #ffffff;
+        letter-spacing: 16%;
+      }
+    }
+    .latest {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      a {
+        color: #ffffff;
+        background-color: #ff9619;
+        font-family: opensans;
+        font-weight: 500;
+        padding: 7px 11px 8px 11px;
+      }
+      p {
+        color: #ffffff;
+        font-family: Exo2;
+        font-weight: 500;
+        font-size: 13px;
+      }
+      .forimg {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+      }
+    }
+  }
+}
+
+@media (max-width: 976px) {
+  .container {
+    padding: 0 39px;
+    margin: 0 auto;
+  }
+  .ebony {
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+    text-align: center;
+    padding: 0px 39px 0px 39px;
+  }
+  .under {
+    flex-direction: column;
+    gap: 16px;
+    padding: 0px 39px 0px 39px;
+    box-shadow: none;
+  }
+  .fourth {
+    padding: 0px 39px 0px 39px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .plan {
+    .cards {
+      #qowb:nth-child(1) {
+        display: none;
+      }
+      .card {
+        flex-direction: column;
+        display: flex;
+        gap: 20px;
+        padding: 0px 39px 0px 39px;
+      }
+    }
+  }
+  .doveryat {
+    .cards {
+      display: flex;
+      flex-direction: row;
+      .setup {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 39px 0px 39px;
+        gap: 20px;
+      }
+    }
+  }
+  .company {
+    .cards {
+      display: flex;
+      flex-direction: column;
+      .grenly {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 39px 0px 39px;
+        gap: 20px;
+      }
+    }
+  }
+}
